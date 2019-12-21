@@ -41,7 +41,7 @@ while (!top) {
 		robots[i].move(a);
 		if (robots[i].getY()<0) {
 			top=true;
-			JOptionPane.showMessageDialog(null, robots[i] +"wins party!!'");
+			JOptionPane.showMessageDialog(null, i +" wins party!!'");
 		}
 	}
 }
